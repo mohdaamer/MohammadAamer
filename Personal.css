@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Secular+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5D9B6;
+    font-family: sans-serif;
+}
+.navigation{
+    width:100%;
+    height:70px;
+    background-color: #FFEFD6;
+    position:relative;
+}
+.logo{
+    width:50px;
+    position:absolute;
+    left:20px;
+    top:10px;
+    cursor:pointer;
+}
+.left h2{
+    position: absolute;
+    left:82px;
+    top:21px;
+}
+.right{
+    position:absolute;
+    right:38px;
+    top:22px;
+}
+.right a{
+    text-decoration: none;
+    padding:15px;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+.right a:hover{
+    text-decoration: underline;
+}
+.search{
+    position: absolute;
+    left:440px;
+    top:20px;
+}
+#search{
+    width:512px;
+    border-radius: 5px;
+    border: none;
+    height:26px;
+    padding:10px;
+}
+.search label{
+    padding:10px;
+    font-weight: bold;
+}
+.myinfo{
+    text-align: center;
+    margin:30px auto 30px auto;
+}
+.myinfo h1{
+    font-family: 'Secular One', sans-serif;
+}
+.myinfo p{
+    margin:10px auto 10px auto;
+}
+.cloud{
+    width:137px;
+    position:absolute;
+    left:224px;
+    top:114px;
+}
+.thunder{
+    width:97px;
+    position: absolute;
+    right:159px;
+    top:133px;
+}
+h1{
+    text-align: center;
+    padding-top: 14px;
+}
+.hobbiescontainer{
+    width:100%;
+    height:fit-content;
+    position:relative;
+}
+.Cricketer{
+    display: inline-block;
+    width:709px;
+    height:322px;
+    background-color: #FFEFD6;
+    border-radius: 20px;
+    margin:59px 20px 20px 87px;
+}
+.Cricketer img{
+    width:164px;
+    display: inline-block;
+    float:left;
+    padding-top: 20px;
+}
+.Cricketer p{
+    position: relative;
+    line-height: 2;
+    font-weight: bold;
+    padding:20px 20px 0 20px;
+}
+.webseries{
+    display: inline-block;
+    width:709px;
+    height:322px;
+    background-color: #FFEFD6;
+    border-radius: 20px;
+    position: absolute;
+    right:68px;
+    top:57px;
+}
+.webseries img{
+    width:164px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.webseries p{
+    font-weight: bold;
+    line-height: 2;
+    padding:20px;
+}
+.coding{
+    display: inline-block;
+    width:709px;
+    height:322px;
+    background-color: #FFEFD6;
+    border-radius: 20px;
+    position: absolute;
+    top:441px;
+    left:85px;
+}
+.coding img{
+    width:185px;
+    float: left;
+    padding:30px 30px 20px 30px;
+}
+.coding p{
+    font-weight: bold;
+    line-height: 2;
+    padding:20px 20px 20px 10px;
+}
+.travelling{
+    display: inline-block;
+    width:709px;
+    height:322px;
+    background-color: #FFEFD6;
+    border-radius: 20px;
+    position: absolute;
+    top:441px;
+    right:70px;
+}
+.travelling img{
+    width:170px;
+    float:left;
+    padding:30px 30px 20px 30px;
+}
+.travelling p{
+    font-weight: bold;
+    line-height: 2;
+    padding:20px 20px 0 20px;
+}
+.technicalskills{
+    width:100%;
+    height:300px;
+    position: relative;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+#technicalskills{
+    margin-top: 425px;
+}
+.python{
+    width:150px;
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+.technicalskills p{
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2;
+    padding: 50px 50px 0 300px;
+}
+.javaprogramming{
+    position: relative;
+    width:100%;
+    height: 300px;
+}
+.javaprogramming img{
+    display: inline-block;
+    width:250px;
+    position: absolute;
+    right:70px;
+    top:30px;
+}
+.javaprogramming p{
+    position: absolute;
+    top:30px;
+    display: inline-block;
+    line-height: 2;
+    font-weight: bold;
+    padding-right: 350px;
+    padding-left: 100px;
+}
+hr{
+    border: dotted #FFEFD6 6px;
+    border-bottom: none;
+    width:10%;
+    margin:50px auto;
+}
